@@ -1,4 +1,4 @@
-Samples
+Protogame-Monogame Platform2D Sample
 =======
 
-A number of simple MonoGame samples for all the supported platforms
+A protogame enabled version of the Platform2D Sample to test usage of Protobuild in Production environment.
