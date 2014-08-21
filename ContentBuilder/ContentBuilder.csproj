@@ -28,6 +28,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Android' ">
     <MonoGamePlatform>Android</MonoGamePlatform>
+    <OutputPath>..\Platformer2D.Content\Android\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'iOS' ">
     <MonoGamePlatform>iOS</MonoGamePlatform>
@@ -45,9 +46,9 @@
     <Reference Include="mscorlib" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Platformer2D\Content\Platformer2D.contentproj">
-      <Project>{935F72E1-0493-499D-ABDB-A65808B8D304}</Project>
-      <Name>Platformer2D %28Content%29</Name>
+    <ProjectReference Include="..\Platformer2D\Content\Platformer2D - Mono.contentproj">
+      <Project>{18EB8DA1-4270-4296-B18C-05E77E2D04D9}</Project>
+      <Name>Platformer2D - Mono %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
     </ProjectReference>
   </ItemGroup>

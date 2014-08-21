@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Platformer2D" Path="Platformer2D" Type="App" Platforms="Android,iOS,Linux,MacOS,Windows,Windows8,WindowsPhone">
+
+	<ProjectGuids>
+		<Platform Name="Android">BA9476CF-99BA-AD03-92F2-73D2C5E58883</Platform>
+		<Platform Name="iOS">DB8508BB-9849-ACC2-BC0F-8EB5DACB3C47</Platform>
+		<Platform Name="Linux">35253CE1-C864-ACD3-8249-4D1319748E8F</Platform>
+		<Platform Name="MacOS">36C538E6-C32A-AA8D-A39C-566173D7118E</Platform>
+		<Platform Name="Windows">7DE47032-A904-AC29-BD22-2D235E8D91BA</Platform>
+		<Platform Name="Windows8">0518563C-ACCA-AA14-8C5D-DDBE93E2605F</Platform>
+		<Platform Name="WindowsPhone">BAA9A6E4-7690-ADE0-9531-DE0EAEEC9739</Platform>
+	</ProjectGuids>
+
+	<!-- Common assembly references -->
+	<References>
+		<Reference Include="System" />
+		<Reference Include="System.Runtime.Serialization" />
+		<Reference Include="GameFrameworkRefs" />
+		<Reference Include="Platformer2D.Content"/>
+		<Reference Include="MonoGame.Framework" />
+	</References>
+
+	<Properties>
+
+		<NoWarn>1591,0436</NoWarn>
+
+		<RootNamespace>Platformer2D</RootNamespace>
+		<RemoveXnaAssembliesOnWP8>false</RemoveXnaAssembliesOnWP8>
+		<PlatformSpecificOutputFolder>True</PlatformSpecificOutputFolder>
+
+		<CustomDefinitions>
+			<Platform Name="Android">TRACE;ANDROID;GLES;OPENGL;OPENAL</Platform>
+			<Platform Name="iOS">IOS;GLES;OPENGL;OPENAL</Platform>
+			<Platform Name="Linux">TRACE;LINUX;OPENGL;OPENAL</Platform>
+			<Platform Name="MacOS">MONOMAC;OPENGL;OPENAL</Platform>
+			<Platform Name="Windows">TRACE;WINDOWS;DIRECTX;WINDOWS_MEDIA_SESSION</Platform>
+			<Platform Name="Windows8">TRACE;NETFX_CORE;WINRT;WINDOWS_STOREAPP;DIRECTX;DIRECTX11_1;WINDOWS_MEDIA_ENGINE</Platform>
+			<Platform Name="WindowsPhone">TRACE;SILVERLIGHT;WINDOWS_PHONE;WINRT;DIRECTX</Platform>
+		</CustomDefinitions>
+
+	</Properties>
+
+	<Files>
+		<Compile Include="Activity1.cs">
+			<Platforms>Android</Platforms>
+		</Compile>
+		<Compile Include="Resources\Resource.designer.cs" >
+			<Platforms>Android</Platforms>
+		</Compile>
+		<AndroidResource Include="Resources\Drawable\Icon.png" >
+			<Platforms>Android</Platforms>
+		</AndroidResource>
+		<AndroidResource Include="Resources\Drawable\Splash.png" >
+			<Platforms>Android</Platforms>
+		</AndroidResource>
+		<AndroidResource Include="Resources\Values\Strings.xml" >
+			<Platforms>Android</Platforms>
+		</AndroidResource>
+		<AndroidResource Include="Resources\Values\Styles.xml" >
+			<Platforms>Android</Platforms>
+		</AndroidResource>
+		
+		<Compile Include="Program.cs">
+			<ExcludePlatforms>Android</ExcludePlatforms>
+		</Compile>
+		
+		<Compile Include="Properties\AssemblyInfo.cs"/>	
+		
+		<Compile Include="Game\Accelerometer.cs"/>
+		<Compile Include="Game\Animation.cs"/>
+		<Compile Include="Game\AnimationPlayer.cs"/>
+		<Compile Include="Game\Circle.cs"/>
+		<Compile Include="Game\Enemy.cs"/>
+		<Compile Include="Game\Gem.cs"/>
+		<Compile Include="Game\Level.cs"/>
+		<Compile Include="Game\Player.cs"/>
+		<Compile Include="Game\RectangleExtensions.cs"/>
+		<Compile Include="Game\Tile.cs"/>
+		<Compile Include="Game\TouchCollectionExtensions.cs"/>
+		<Compile Include="Game.cs"/>
+	</Files>
+</Project>

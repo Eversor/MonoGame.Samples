@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModuleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Platformer2D</Name>
+  <ModuleAssemblies />
+  <DefaultAction>Generate</DefaultAction>
+  <SupportedPlatforms>Android,Linux,Windows8,Windows,WindowsPhone,iOS,MacOS</SupportedPlatforms>
+  <DefaultWindowsPlatforms>Android,Linux,Windows8,Windows,WindowsPhone,iOS</DefaultWindowsPlatforms>
+  <DefaultMacOSPlatforms>MacOS,iOS,Android</DefaultMacOSPlatforms>
+  <DefaultLinuxPlatforms>Linux</DefaultLinuxPlatforms>
+  <DisableSynchronisation>true</DisableSynchronisation>
+</ModuleInfo>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="GameFrameworkRefs">
+
+  <Platform Type="iOS">
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </Platform>
+
+  <Platform Type="Linux">
+    <Reference Include="System.Drawing" />
+  </Platform>
+
+  <Platform Type="MacOS">
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+  </Platform>
+
+  <Platform Type="Android">
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Core" />
+  </Platform>
+  
+  <Platform Type="Windows">
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </Platform>
+
+  <Platform Type="Windows8">
+  </Platform>
+  
+  <Platform Type="WindowsPhone">
+  </Platform>
+
+<!--
+
+  <Platform Type="Ouya">
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Core" />
+  </Platform>
+
+  <Platform Type="PSMobile">
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.PlayStation.Core" />
+  </Platform>
+
+
+  <Platform Type="WindowsGL">
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </Platform>
+  
+  <Platform Type="Angle">
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </Platform>
+  
+  <Platform Type="Web">
+  </Platform>
+-->
+</ExternalProject>
