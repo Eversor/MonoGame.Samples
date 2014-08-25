@@ -110,3 +110,4 @@ UpgradeLog*.XML
 /ContentBuilder/ContentBuilder.v11.suo
 /ContentBuilder/bin
 /ContentBuilder/obj
+*.cachefile
