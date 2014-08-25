@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentBuilder - Mono", "ContentBuilder\ContentBuilder - Mono.csproj", "{7CF308F8-F4F1-48D5-A1A5-533F4A4BBE5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platformer2D - Mono", "Platformer2D\Content\Platformer2D - Mono.contentproj", "{18EB8DA1-4270-4296-B18C-05E77E2D04D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platformer2D - Mono", "ContentBuilder\Content\Platformer2D - Mono.contentproj", "{18EB8DA1-4270-4296-B18C-05E77E2D04D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BF7A10A2-977C-4E3B-8A9D-3728A798E5F8}"
 	ProjectSection(SolutionItems) = preProject

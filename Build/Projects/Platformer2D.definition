@@ -41,22 +41,28 @@
 	</Properties>
 
 	<Files>
-		<Compile Include="Activity1.cs">
+		<Compile Include="..\Platformer2D.Platforms\Android\Activity1.cs">
+			<Link>Activity1.cs</Link>
 			<Platforms>Android</Platforms>
 		</Compile>
-		<Compile Include="Resources\Resource.designer.cs" >
+		<Compile Include="..\Platformer2D.Platforms\Android\Resources\Resource.designer.cs" >
+			<Link>Resources\Resource.designer.cs</Link>
 			<Platforms>Android</Platforms>
 		</Compile>
-		<AndroidResource Include="Resources\Drawable\Icon.png" >
+		<AndroidResource Include="..\Platformer2D.Platforms\Android\Resources\Drawable\Icon.png" >
+			<Link>Resources\Drawable\Icon.png</Link>
 			<Platforms>Android</Platforms>
 		</AndroidResource>
-		<AndroidResource Include="Resources\Drawable\Splash.png" >
+		<AndroidResource Include="..\Platformer2D.Platforms\Android\Resources\Drawable\Splash.png" >
+			<Link>Resources\Drawable\Splash.png</Link>
 			<Platforms>Android</Platforms>
 		</AndroidResource>
-		<AndroidResource Include="Resources\Values\Strings.xml" >
+		<AndroidResource Include="..\Platformer2D.Platforms\Android\Resources\Values\Strings.xml" >
+			<Link>Resources\Values\Strings.xml</Link>
 			<Platforms>Android</Platforms>
 		</AndroidResource>
-		<AndroidResource Include="Resources\Values\Styles.xml" >
+		<AndroidResource Include="..\Platformer2D.Platforms\Android\Resources\Values\Styles.xml" >
+			<Link>Resources\Values\Styles.xml</Link>
 			<Platforms>Android</Platforms>
 		</AndroidResource>
 		
@@ -64,8 +70,7 @@
 			<ExcludePlatforms>Android</ExcludePlatforms>
 		</Compile>
 		
-		<Compile Include="Properties\AssemblyInfo.cs"/>	
-		
+		<Compile Include="Properties\AssemblyInfo.cs"/>			
 		<Compile Include="Game\Accelerometer.cs"/>
 		<Compile Include="Game\Animation.cs"/>
 		<Compile Include="Game\AnimationPlayer.cs"/>

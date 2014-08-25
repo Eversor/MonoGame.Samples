@@ -52,7 +52,7 @@
     <Reference Include="mscorlib" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Platformer2D\Content\Platformer2D - Mono.contentproj">
+    <ProjectReference Include="Content\Platformer2D - Mono.contentproj">
       <Project>{18EB8DA1-4270-4296-B18C-05E77E2D04D9}</Project>
       <Name>Platformer2D - Mono %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
