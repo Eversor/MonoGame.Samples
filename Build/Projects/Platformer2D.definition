@@ -17,7 +17,6 @@
 		<Reference Include="System.Runtime.Serialization" />
 		<Reference Include="GameFrameworkRefs" />
 		<Reference Include="Platformer2D.Content"/>
-		<Reference Include="MonoGame.Framework" />
 	</References>
 
 	<Properties>

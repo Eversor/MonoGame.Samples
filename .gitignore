@@ -112,3 +112,5 @@ UpgradeLog*.XML
 /ContentBuilder/obj
 *.cachefile
 *.userprefs
+Platformer2D.Android.sln
+Platformer2D/Platformer2D.Android.csproj
