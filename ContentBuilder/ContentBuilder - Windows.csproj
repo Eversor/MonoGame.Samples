@@ -24,30 +24,6 @@
     <MonoGamePlatform>Windows</MonoGamePlatform>
     <OutputPath>..\Platformer2D.Content\Windows\</OutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Windows8' ">
-    <MonoGamePlatform>Windows8</MonoGamePlatform>
-    <OutputPath>..\Platformer2D.Content\Windows8\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Android' ">
-    <MonoGamePlatform>Android</MonoGamePlatform>
-    <OutputPath>..\Platformer2D.Content\Android\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'iOS' ">
-    <MonoGamePlatform>iOS</MonoGamePlatform>
-    <OutputPath>..\Platformer2D.Content\iOS\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'OSX' ">
-    <MonoGamePlatform>OSX</MonoGamePlatform>
-    <OutputPath>..\Platformer2D.Content\OSX\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Linux' ">
-    <MonoGamePlatform>Linux</MonoGamePlatform>
-    <OutputPath>..\Platformer2D.Content\Linux\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'PSM' ">
-    <MonoGamePlatform>PSM</MonoGamePlatform>
-    <OutputPath>..\Platformer2D.Content\PSM\</OutputPath>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
   </ItemGroup>
