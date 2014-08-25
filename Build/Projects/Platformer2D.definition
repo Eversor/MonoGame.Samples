@@ -41,6 +41,11 @@
 	</Properties>
 
 	<Files>
+	<!-- ANDROID -->
+		<Compile Include="..\Platformer2D.Platforms\Android\Properties\AssemblyInfo.cs">
+			<Link>Properties\AssemblyInfo.cs</Link>
+			<Platforms>Android</Platforms>
+		</Compile>
 		<Compile Include="..\Platformer2D.Platforms\Android\Activity1.cs">
 			<Link>Activity1.cs</Link>
 			<Platforms>Android</Platforms>
@@ -66,11 +71,11 @@
 			<Platforms>Android</Platforms>
 		</AndroidResource>
 		
+	<!-- ALL PLATFORMS -->
 		<Compile Include="Program.cs">
 			<ExcludePlatforms>Android</ExcludePlatforms>
 		</Compile>
-		
-		<Compile Include="Properties\AssemblyInfo.cs"/>			
+			
 		<Compile Include="Game\Accelerometer.cs"/>
 		<Compile Include="Game\Animation.cs"/>
 		<Compile Include="Game\AnimationPlayer.cs"/>
